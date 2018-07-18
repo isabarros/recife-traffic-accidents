@@ -1,0 +1,341 @@
+2018-07-08 20:17:05 INFO  CoarseGrainedExecutorBackend:2608 - Started daemon with process name: 22898@LAibarros
+2018-07-08 20:17:05 INFO  SignalUtils:54 - Registered signal handler for TERM
+2018-07-08 20:17:05 INFO  SignalUtils:54 - Registered signal handler for HUP
+2018-07-08 20:17:05 INFO  SignalUtils:54 - Registered signal handler for INT
+2018-07-08 20:17:06 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-07-08 20:17:06 INFO  SecurityManager:54 - Changing view acls to: ibarros
+2018-07-08 20:17:06 INFO  SecurityManager:54 - Changing modify acls to: ibarros
+2018-07-08 20:17:06 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-07-08 20:17:06 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-07-08 20:17:06 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ibarros); groups with view permissions: Set(); users  with modify permissions: Set(ibarros); groups with modify permissions: Set()
+2018-07-08 20:17:06 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.100:52466 after 106 ms (0 ms spent in bootstraps)
+2018-07-08 20:17:07 INFO  SecurityManager:54 - Changing view acls to: ibarros
+2018-07-08 20:17:07 INFO  SecurityManager:54 - Changing modify acls to: ibarros
+2018-07-08 20:17:07 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-07-08 20:17:07 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-07-08 20:17:07 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ibarros); groups with view permissions: Set(); users  with modify permissions: Set(ibarros); groups with modify permissions: Set()
+2018-07-08 20:17:07 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.100:52466 after 1 ms (0 ms spent in bootstraps)
+2018-07-08 20:17:07 INFO  DiskBlockManager:54 - Created local directory at /private/var/folders/ll/s38brzgd3kn0l3lcnmqyn12h0000gq/T/spark-42a45786-a5bf-45c0-bd03-5906811fde01/executor-178a1590-8c47-4214-a7fe-647334d58d84/blockmgr-23a9c406-3914-4be4-abaa-066cd7d1b646
+2018-07-08 20:17:07 INFO  MemoryStore:54 - MemoryStore started with capacity 366.3 MB
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Connecting to driver: spark://CoarseGrainedScheduler@192.168.0.100:52466
+2018-07-08 20:17:07 INFO  WorkerWatcher:54 - Connecting to worker spark://Worker@192.168.0.100:52432
+2018-07-08 20:17:07 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.100:52432 after 12 ms (0 ms spent in bootstraps)
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Successfully registered with driver
+2018-07-08 20:17:07 INFO  Executor:54 - Starting executor ID 0 on host 192.168.0.100
+2018-07-08 20:17:07 INFO  Utils:54 - Successfully started service 'org.apache.spark.network.netty.NettyBlockTransferService' on port 52474.
+2018-07-08 20:17:07 INFO  NettyBlockTransferService:54 - Server created on 192.168.0.100:52474
+2018-07-08 20:17:07 INFO  BlockManager:54 - Using org.apache.spark.storage.RandomBlockReplicationPolicy for block replication policy
+2018-07-08 20:17:07 INFO  BlockManagerMaster:54 - Registering BlockManager BlockManagerId(0, 192.168.0.100, 52474, None)
+2018-07-08 20:17:07 INFO  BlockManagerMaster:54 - Registered BlockManager BlockManagerId(0, 192.168.0.100, 52474, None)
+2018-07-08 20:17:07 INFO  BlockManager:54 - Initialized BlockManager: BlockManagerId(0, 192.168.0.100, 52474, None)
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 0
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 1
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 2
+2018-07-08 20:17:07 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 3
+2018-07-08 20:17:07 INFO  Executor:54 - Running task 2.0 in stage 0.0 (TID 2)
+2018-07-08 20:17:07 INFO  Executor:54 - Running task 1.0 in stage 0.0 (TID 1)
+2018-07-08 20:17:07 INFO  Executor:54 - Running task 0.0 in stage 0.0 (TID 0)
+2018-07-08 20:17:07 INFO  Executor:54 - Running task 3.0 in stage 0.0 (TID 3)
+2018-07-08 20:17:07 INFO  Executor:54 - Fetching spark://192.168.0.100:52466/jars/spark-examples_2.11-2.3.0.jar with timestamp 1531091823235
+2018-07-08 20:17:07 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.100:52466 after 1 ms (0 ms spent in bootstraps)
+2018-07-08 20:17:07 INFO  Utils:54 - Fetching spark://192.168.0.100:52466/jars/spark-examples_2.11-2.3.0.jar to /private/var/folders/ll/s38brzgd3kn0l3lcnmqyn12h0000gq/T/spark-42a45786-a5bf-45c0-bd03-5906811fde01/executor-178a1590-8c47-4214-a7fe-647334d58d84/spark-f2d05c32-6801-42cf-88b5-ffc1dc31614b/fetchFileTemp8612390592857131563.tmp
+2018-07-08 20:17:07 INFO  Utils:54 - Copying /private/var/folders/ll/s38brzgd3kn0l3lcnmqyn12h0000gq/T/spark-42a45786-a5bf-45c0-bd03-5906811fde01/executor-178a1590-8c47-4214-a7fe-647334d58d84/spark-f2d05c32-6801-42cf-88b5-ffc1dc31614b/-2889820811531091823235_cache to /Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/work/app-20180708201703-0000/0/./spark-examples_2.11-2.3.0.jar
+2018-07-08 20:17:07 INFO  Executor:54 - Adding file:/Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/work/app-20180708201703-0000/0/./spark-examples_2.11-2.3.0.jar to class loader
+2018-07-08 20:17:08 INFO  TorrentBroadcast:54 - Started reading broadcast variable 0
+2018-07-08 20:17:08 INFO  TransportClientFactory:267 - Successfully created connection to /192.168.0.100:52468 after 1 ms (0 ms spent in bootstraps)
+2018-07-08 20:17:08 INFO  MemoryStore:54 - Block broadcast_0_piece0 stored as bytes in memory (estimated size 1181.0 B, free 366.3 MB)
+2018-07-08 20:17:08 INFO  TorrentBroadcast:54 - Reading broadcast variable 0 took 145 ms
+2018-07-08 20:17:08 INFO  MemoryStore:54 - Block broadcast_0 stored as values in memory (estimated size 1832.0 B, free 366.3 MB)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 0.0 in stage 0.0 (TID 0). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 3.0 in stage 0.0 (TID 3). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 1.0 in stage 0.0 (TID 1). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 2.0 in stage 0.0 (TID 2). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 4
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 5
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 6
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 7
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 7.0 in stage 0.0 (TID 7)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 4.0 in stage 0.0 (TID 4)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 5.0 in stage 0.0 (TID 5)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 6.0 in stage 0.0 (TID 6)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 4.0 in stage 0.0 (TID 4). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 6.0 in stage 0.0 (TID 6). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 7.0 in stage 0.0 (TID 7). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 5.0 in stage 0.0 (TID 5). 867 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 8
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 9
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 10
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 10.0 in stage 0.0 (TID 10)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 8.0 in stage 0.0 (TID 8)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 9.0 in stage 0.0 (TID 9)
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 11
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 11.0 in stage 0.0 (TID 11)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 8.0 in stage 0.0 (TID 8). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 9.0 in stage 0.0 (TID 9). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 11.0 in stage 0.0 (TID 11). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 12
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 10.0 in stage 0.0 (TID 10). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 13
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 12.0 in stage 0.0 (TID 12)
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 13.0 in stage 0.0 (TID 13)
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 14
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 14.0 in stage 0.0 (TID 14)
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 15
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 15.0 in stage 0.0 (TID 15)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 12.0 in stage 0.0 (TID 12). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 16
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 16.0 in stage 0.0 (TID 16)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 13.0 in stage 0.0 (TID 13). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 17
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 17.0 in stage 0.0 (TID 17)
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 14.0 in stage 0.0 (TID 14). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  Executor:54 - Finished task 16.0 in stage 0.0 (TID 16). 824 bytes result sent to driver
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 18
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 18.0 in stage 0.0 (TID 18)
+2018-07-08 20:17:08 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 19
+2018-07-08 20:17:08 INFO  Executor:54 - Running task 19.0 in stage 0.0 (TID 19)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 18.0 in stage 0.0 (TID 18). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 20
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 15.0 in stage 0.0 (TID 15). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 21
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 21.0 in stage 0.0 (TID 21)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 20.0 in stage 0.0 (TID 20)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 21.0 in stage 0.0 (TID 21). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 22
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 22.0 in stage 0.0 (TID 22)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 17.0 in stage 0.0 (TID 17). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 23
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 23.0 in stage 0.0 (TID 23)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 20.0 in stage 0.0 (TID 20). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 24
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 19.0 in stage 0.0 (TID 19). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 24.0 in stage 0.0 (TID 24)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 25
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 25.0 in stage 0.0 (TID 25)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 23.0 in stage 0.0 (TID 23). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 26
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 24.0 in stage 0.0 (TID 24). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 25.0 in stage 0.0 (TID 25). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 27
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 27.0 in stage 0.0 (TID 27)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 28
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 28.0 in stage 0.0 (TID 28)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 26.0 in stage 0.0 (TID 26)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 28.0 in stage 0.0 (TID 28). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 26.0 in stage 0.0 (TID 26). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 27.0 in stage 0.0 (TID 27). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 22.0 in stage 0.0 (TID 22). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 29
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 30
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 29.0 in stage 0.0 (TID 29)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 31
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 30.0 in stage 0.0 (TID 30)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 31.0 in stage 0.0 (TID 31)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 32
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 32.0 in stage 0.0 (TID 32)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 30.0 in stage 0.0 (TID 30). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 33
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 33.0 in stage 0.0 (TID 33)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 29.0 in stage 0.0 (TID 29). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 34
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 34.0 in stage 0.0 (TID 34)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 32.0 in stage 0.0 (TID 32). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 35
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 34.0 in stage 0.0 (TID 34). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 36
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 35.0 in stage 0.0 (TID 35)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 36.0 in stage 0.0 (TID 36)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 31.0 in stage 0.0 (TID 31). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 37
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 37.0 in stage 0.0 (TID 37)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 35.0 in stage 0.0 (TID 35). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 38
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 38.0 in stage 0.0 (TID 38)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 37.0 in stage 0.0 (TID 37). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 39
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 39.0 in stage 0.0 (TID 39)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 33.0 in stage 0.0 (TID 33). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 36.0 in stage 0.0 (TID 36). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 40
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 41
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 40.0 in stage 0.0 (TID 40)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 39.0 in stage 0.0 (TID 39). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 41.0 in stage 0.0 (TID 41)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 42
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 42.0 in stage 0.0 (TID 42)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 42.0 in stage 0.0 (TID 42). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 43
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 43.0 in stage 0.0 (TID 43)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 40.0 in stage 0.0 (TID 40). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 43.0 in stage 0.0 (TID 43). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 44
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 44.0 in stage 0.0 (TID 44)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 45
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 45.0 in stage 0.0 (TID 45)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 38.0 in stage 0.0 (TID 38). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 46
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 46.0 in stage 0.0 (TID 46)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 41.0 in stage 0.0 (TID 41). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 47
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 47.0 in stage 0.0 (TID 47)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 44.0 in stage 0.0 (TID 44). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 48
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 48.0 in stage 0.0 (TID 48)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 47.0 in stage 0.0 (TID 47). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 49
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 49.0 in stage 0.0 (TID 49)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 48.0 in stage 0.0 (TID 48). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 50
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 50.0 in stage 0.0 (TID 50)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 49.0 in stage 0.0 (TID 49). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 51
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 51.0 in stage 0.0 (TID 51)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 45.0 in stage 0.0 (TID 45). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 52
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 51.0 in stage 0.0 (TID 51). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 53
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 53.0 in stage 0.0 (TID 53)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 52.0 in stage 0.0 (TID 52)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 46.0 in stage 0.0 (TID 46). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 52.0 in stage 0.0 (TID 52). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 54
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 55
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 54.0 in stage 0.0 (TID 54)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 55.0 in stage 0.0 (TID 55)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 55.0 in stage 0.0 (TID 55). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 50.0 in stage 0.0 (TID 50). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 54.0 in stage 0.0 (TID 54). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 56
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 56.0 in stage 0.0 (TID 56)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 57
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 58
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 57.0 in stage 0.0 (TID 57)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 58.0 in stage 0.0 (TID 58)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 53.0 in stage 0.0 (TID 53). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 59
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 59.0 in stage 0.0 (TID 59)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 58.0 in stage 0.0 (TID 58). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 60
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 60.0 in stage 0.0 (TID 60)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 57.0 in stage 0.0 (TID 57). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 61
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 61.0 in stage 0.0 (TID 61)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 56.0 in stage 0.0 (TID 56). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 62
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 59.0 in stage 0.0 (TID 59). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 62.0 in stage 0.0 (TID 62)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 63
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 61.0 in stage 0.0 (TID 61). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 64
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 63.0 in stage 0.0 (TID 63)
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 64.0 in stage 0.0 (TID 64)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 62.0 in stage 0.0 (TID 62). 867 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 65
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 65.0 in stage 0.0 (TID 65)
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 63.0 in stage 0.0 (TID 63). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 64.0 in stage 0.0 (TID 64). 824 bytes result sent to driver
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 66
+2018-07-08 20:17:09 INFO  Executor:54 - Running task 66.0 in stage 0.0 (TID 66)
+2018-07-08 20:17:09 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 67
+2018-07-08 20:17:09 INFO  Executor:54 - Finished task 60.0 in stage 0.0 (TID 60). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 68
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 68.0 in stage 0.0 (TID 68)
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 67.0 in stage 0.0 (TID 67)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 68.0 in stage 0.0 (TID 68). 867 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 69
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 69.0 in stage 0.0 (TID 69)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 65.0 in stage 0.0 (TID 65). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 70
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 70.0 in stage 0.0 (TID 70)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 67.0 in stage 0.0 (TID 67). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 66.0 in stage 0.0 (TID 66). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 71
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 71.0 in stage 0.0 (TID 71)
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 72
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 72.0 in stage 0.0 (TID 72)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 69.0 in stage 0.0 (TID 69). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 73
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 73.0 in stage 0.0 (TID 73)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 72.0 in stage 0.0 (TID 72). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 74
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 74.0 in stage 0.0 (TID 74)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 70.0 in stage 0.0 (TID 70). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 75
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 75.0 in stage 0.0 (TID 75)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 71.0 in stage 0.0 (TID 71). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 76
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 76.0 in stage 0.0 (TID 76)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 73.0 in stage 0.0 (TID 73). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 77
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 77.0 in stage 0.0 (TID 77)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 76.0 in stage 0.0 (TID 76). 867 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 78
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 75.0 in stage 0.0 (TID 75). 910 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 79
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 79.0 in stage 0.0 (TID 79)
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 78.0 in stage 0.0 (TID 78)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 74.0 in stage 0.0 (TID 74). 867 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 80
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 80.0 in stage 0.0 (TID 80)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 77.0 in stage 0.0 (TID 77). 867 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 78.0 in stage 0.0 (TID 78). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 81
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 82
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 82.0 in stage 0.0 (TID 82)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 79.0 in stage 0.0 (TID 79). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 83
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 83.0 in stage 0.0 (TID 83)
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 81.0 in stage 0.0 (TID 81)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 80.0 in stage 0.0 (TID 80). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 84
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 84.0 in stage 0.0 (TID 84)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 81.0 in stage 0.0 (TID 81). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 82.0 in stage 0.0 (TID 82). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 85
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 85.0 in stage 0.0 (TID 85)
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 86
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 86.0 in stage 0.0 (TID 86)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 84.0 in stage 0.0 (TID 84). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 83.0 in stage 0.0 (TID 83). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 87
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 87.0 in stage 0.0 (TID 87)
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 88
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 88.0 in stage 0.0 (TID 88)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 86.0 in stage 0.0 (TID 86). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 85.0 in stage 0.0 (TID 85). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 89
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 89.0 in stage 0.0 (TID 89)
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 90
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 90.0 in stage 0.0 (TID 90)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 88.0 in stage 0.0 (TID 88). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 87.0 in stage 0.0 (TID 87). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 91
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 91.0 in stage 0.0 (TID 91)
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 92
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 92.0 in stage 0.0 (TID 92)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 92.0 in stage 0.0 (TID 92). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 93
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 93.0 in stage 0.0 (TID 93)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 89.0 in stage 0.0 (TID 89). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 94
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 94.0 in stage 0.0 (TID 94)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 90.0 in stage 0.0 (TID 90). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 95
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 91.0 in stage 0.0 (TID 91). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 96
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 96.0 in stage 0.0 (TID 96)
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 95.0 in stage 0.0 (TID 95)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 94.0 in stage 0.0 (TID 94). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 97
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 97.0 in stage 0.0 (TID 97)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 93.0 in stage 0.0 (TID 93). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 98
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 98.0 in stage 0.0 (TID 98)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 96.0 in stage 0.0 (TID 96). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Got assigned task 99
+2018-07-08 20:17:10 INFO  Executor:54 - Running task 99.0 in stage 0.0 (TID 99)
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 98.0 in stage 0.0 (TID 98). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 95.0 in stage 0.0 (TID 95). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 97.0 in stage 0.0 (TID 97). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  Executor:54 - Finished task 99.0 in stage 0.0 (TID 99). 824 bytes result sent to driver
+2018-07-08 20:17:10 INFO  CoarseGrainedExecutorBackend:54 - Driver commanded a shutdown

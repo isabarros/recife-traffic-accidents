@@ -1,0 +1,51 @@
+Spark Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java -cp /Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/conf/:/Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/jars/* -Xmx1g org.apache.spark.deploy.master.Master --host LAibarros --port 7077 --webui-port 8080
+========================================
+2018-07-08 20:09:21 INFO  Master:2608 - Started daemon with process name: 22809@LAibarros
+2018-07-08 20:09:21 INFO  SignalUtils:54 - Registered signal handler for TERM
+2018-07-08 20:09:21 INFO  SignalUtils:54 - Registered signal handler for HUP
+2018-07-08 20:09:21 INFO  SignalUtils:54 - Registered signal handler for INT
+2018-07-08 20:09:22 WARN  NativeCodeLoader:62 - Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+2018-07-08 20:09:22 INFO  SecurityManager:54 - Changing view acls to: ibarros
+2018-07-08 20:09:22 INFO  SecurityManager:54 - Changing modify acls to: ibarros
+2018-07-08 20:09:22 INFO  SecurityManager:54 - Changing view acls groups to: 
+2018-07-08 20:09:22 INFO  SecurityManager:54 - Changing modify acls groups to: 
+2018-07-08 20:09:22 INFO  SecurityManager:54 - SecurityManager: authentication disabled; ui acls disabled; users  with view permissions: Set(ibarros); groups with view permissions: Set(); users  with modify permissions: Set(ibarros); groups with modify permissions: Set()
+2018-07-08 20:09:23 INFO  Utils:54 - Successfully started service 'sparkMaster' on port 7077.
+2018-07-08 20:09:23 INFO  Master:54 - Starting Spark master at spark://LAibarros:7077
+2018-07-08 20:09:23 INFO  Master:54 - Running Spark version 2.3.0
+2018-07-08 20:09:23 INFO  log:192 - Logging initialized @3627ms
+2018-07-08 20:09:23 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-07-08 20:09:23 INFO  Server:414 - Started @3794ms
+2018-07-08 20:09:23 INFO  AbstractConnector:278 - Started ServerConnector@63e0cc29{HTTP/1.1,[http/1.1]}{0.0.0.0:8080}
+2018-07-08 20:09:23 INFO  Utils:54 - Successfully started service 'MasterUI' on port 8080.
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6b5f57cb{/app,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@606dc8cd{/app/json,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@51341dfb{/,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@5d0ef72b{/json,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@53ab77e7{/static,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@14ee5d4f{/app/kill,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@6cf12506{/driver/kill,null,AVAILABLE,@Spark}
+2018-07-08 20:09:23 INFO  MasterWebUI:54 - Bound MasterWebUI to 0.0.0.0, and started at http://192.168.0.100:8080
+2018-07-08 20:09:24 INFO  Server:346 - jetty-9.3.z-SNAPSHOT
+2018-07-08 20:09:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@15a99d10{/,null,AVAILABLE}
+2018-07-08 20:09:24 INFO  AbstractConnector:278 - Started ServerConnector@66c8e0ac{HTTP/1.1,[http/1.1]}{LAibarros:6066}
+2018-07-08 20:09:24 INFO  Server:414 - Started @4050ms
+2018-07-08 20:09:24 INFO  Utils:54 - Successfully started service on port 6066.
+2018-07-08 20:09:24 INFO  StandaloneRestServer:54 - Started REST server for submitting applications on port 6066
+2018-07-08 20:09:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@13bf98c6{/metrics/master/json,null,AVAILABLE,@Spark}
+2018-07-08 20:09:24 INFO  ContextHandler:781 - Started o.s.j.s.ServletContextHandler@433b08ef{/metrics/applications/json,null,AVAILABLE,@Spark}
+2018-07-08 20:09:24 INFO  Master:54 - I have been elected leader! New state: ALIVE
+2018-07-08 20:10:50 INFO  Master:54 - Registering worker 192.168.0.100:52432 with 4 cores, 7.0 GB RAM
+2018-07-08 20:17:03 INFO  Master:54 - Registering app Spark Pi
+2018-07-08 20:17:03 INFO  Master:54 - Registered app Spark Pi with ID app-20180708201703-0000
+2018-07-08 20:17:03 INFO  Master:54 - Launching executor app-20180708201703-0000/0 on worker worker-20180708201049-192.168.0.100-52432
+2018-07-08 20:17:10 INFO  Master:54 - Received unregister request from application app-20180708201703-0000
+2018-07-08 20:17:10 INFO  Master:54 - Removing app app-20180708201703-0000
+2018-07-08 20:17:10 INFO  Master:54 - 192.168.0.100:52467 got disassociated, removing it.
+2018-07-08 20:17:10 INFO  Master:54 - 192.168.0.100:52466 got disassociated, removing it.
+2018-07-08 20:17:11 WARN  Master:66 - Got status update for unknown executor app-20180708201703-0000/0
+2018-07-08 20:22:29 INFO  Master:54 - 192.168.0.100:52433 got disassociated, removing it.
+2018-07-08 20:22:29 INFO  Master:54 - 192.168.0.100:52432 got disassociated, removing it.
+2018-07-08 20:22:29 INFO  Master:54 - Removing worker worker-20180708201049-192.168.0.100-52432 on 192.168.0.100:52432
+2018-07-08 20:22:29 INFO  Master:54 - Telling app of lost worker: worker-20180708201049-192.168.0.100-52432
+2018-07-08 20:22:48 ERROR Master:43 - RECEIVED SIGNAL TERM

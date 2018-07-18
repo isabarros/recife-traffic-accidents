@@ -1,0 +1,3 @@
+Spark Executor Command: "/Library/Java/JavaVirtualMachines/jdk1.8.0_162.jdk/Contents/Home/bin/java" "-cp" "/Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/conf/:/Users/ibarros/Downloads/spark-2.3.0-bin-hadoop2.7/jars/*" "-Xmx1024M" "-Dspark.driver.port=52466" "org.apache.spark.executor.CoarseGrainedExecutorBackend" "--driver-url" "spark://CoarseGrainedScheduler@192.168.0.100:52466" "--executor-id" "0" "--hostname" "192.168.0.100" "--cores" "4" "--app-id" "app-20180708201703-0000" "--worker-url" "spark://Worker@192.168.0.100:52432"
+========================================
+
